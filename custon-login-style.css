@@ -1,0 +1,43 @@
+.login h1 a {
+    background:none;
+    height: 110px;
+}
+
+body.login {
+    background: #111;
+}
+
+#login {
+    padding-top: 50px;
+}
+
+.login form {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+
+.login label {
+    color: #999;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.login form .input,
+.login input[type="text"] {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: #555;
+    box-shadow: none;
+    color: #fff;
+}
+
+.login #nav a,
+.login #backtoblog a {
+    color: #d07a00 !important;
+    text-shadow: 0 -1px 0 #000;
+}
+
+.login #wp-submit {
+    background:#d07a00;
+    border-color: #d07a00;
+    border-bottom-color: #a76100;
+}
