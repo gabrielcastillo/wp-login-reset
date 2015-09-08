@@ -11,7 +11,7 @@ add_action( 'login_head', 'custom_login_style' );
  * Change login logo's title and the URL it links to
  */
 function custom_login_header_title( $title ) {
-	return 'Go to the TDSchoolPortraits home page';
+	return 'Go to the ENTER YOU SITENAME HERE home page';
 }
 add_filter( 'login_headertitle', 'custom_login_header_title' );
 
